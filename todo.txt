@@ -1,0 +1,10 @@
+logout
+
+make player inactive/active with note
+
+if($stmt->execute() == false)
+          {
+            die('execute() failed: ' . htmlspecialchars($stmt->error));
+            }
+=======
+Active and inactivate player
